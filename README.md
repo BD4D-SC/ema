@@ -38,7 +38,7 @@ Il y a plusieurs manières d'intéragir avec Python:
     $ python hello_ema.py
     Hello EMA!
     ```  
-3. En mode intéractif dans un _notebook_ (carnet de notes) Jupyter. Un notebook est une application web (un programme avec lequel on intéragit avec un navigateur web) qui permet d'intéragir avec un langage de programmation, dont Python, et d'afficher le résultat de l'exécution de code ainsi que d'ajouter des notes textuelles enrichies (en Markdown comme le présent fichier).
+3. En mode intéractif dans un _notebook_ (carnet de notes) Jupyter. Un notebook est une application web (un programme avec lequel on intéragit avec un navigateur web) qui permet d'intéragir avec un langage de programmation, dont Python, et d'afficher le résultat de l'exécution de code ainsi que d'ajouter des notes textuelles enrichies (en Markdown comme dans le présent fichier).
 
     Nous devons d'abord installer le module Jupyter:
     ```
