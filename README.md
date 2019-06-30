@@ -2,8 +2,8 @@
 École Mathématique Africaine : bases mathématiques de l’intelligence artificielle  
 Yaoudé - Cameroun - Juillet 2019 
 
-# Cours: Outils informatiques pour la science des données : Python
-Par Ivan Keller, AXA Belgique
+# Cours/TP: Outils informatiques pour la science des données : Python
+Ivan Keller, AXA Belgique
 
 Ce cours, basé sur des exposés associés à des démonstrations et travaux pratiques, 
 permettra aux étudiants d’apprendre à utiliser les outils Open Source de la science des données, 
