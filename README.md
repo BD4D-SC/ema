@@ -78,5 +78,13 @@ Il y a plusieurs manières d'intéragir avec Python:
     ```
     $ jupyter notebook
     ```
-    ![Notebook example](img/notebook_ex1.png) 
+    ![Notebook example](img/notebook_ex1.png)   
+
+## 3. Télécharger un fichier particulier de ce dépot   
+1. Sur ce dépot naviguer sur le fichier que vous voulez télécharger par exemple `5_Scikit_Learn.ipynb` 
+2. Cliquer sur le bouton "Raw" ![](img/git_raw.png) qui affiche le code source du fichier  
+3. Sur votre navigateur choisir Enregistrer sous ... 
+4. Sauvegarder ce fichier en faisant attention à l'extension du fichier (retirer le `.txt`) à la place voulue.
+
+
 
