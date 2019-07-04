@@ -55,38 +55,44 @@ Si vous avez installé Miniconda, on commencera avec cet environnement de base p
 
 ## 2. Exécuter du code Python
 Il y a plusieurs manières d'intéragir avec Python:  
-1. En session intéractive (python shell, console, REPL): dans un terminal, exécuter la commande **`python`** ou **`ipython`** et ensuite des commandes Python :
-    ```
+### 2.1. En session intéractive (python shell, console, REPL)
+Dans un terminal, exécuter la commande **`python`** ou **`ipython`** et ensuite des commandes Python :
+
     $ python
     Python 3.7.1 (default, Dec 10 2018, 22:54:23) [MSC v.1915 64 bit (AMD64)] :: Anaconda, Inc. on win32
     Type "help", "copyright", "credits" or "license" for more information.
     >>> print('Hello EMA!')
     Hello EMA!
     >>>
-    ```
 
-2. En écrivant du code Python dans un éditeur de texte, par exemple :  
-    ```
-    # hello_ema.py : un script élémentaire en Python 3
+
+### 2.2 En exécutant un script Python
+On écrit du code à l'aide d'un éditeur de texte, par exemple le fichier `hello_ema.py` :  
+    
+    #!/usr/bin/python3 
+    # hello_ema.py : ceci est un script élémentaire en Python 3
 
     print("Hello EMA!")
-    ```   
-    et en demandant à l'interpréteur Python d'exécuter le script : 
-    ```
+     
+Puis on demande à l'interpréteur Python d'exécuter le script : 
+    
+    
     $ python hello_ema.py
     Hello EMA!
-    ```  
-3. En mode intéractif dans un _notebook_ (carnet de notes) Jupyter. Un notebook est une application web (un programme avec lequel on intéragit avec un navigateur web) qui permet d'intéragir avec un langage de programmation, dont Python, et d'afficher le résultat de l'exécution de code ainsi que d'ajouter des notes textuelles enrichies (en Markdown comme dans le présent fichier).
+    
+### 2.3. En mode intéractif dans un _notebook_ Jupyter 
+Un notebook (carnet de notes) est une application web qui permet d'intéragir avec un langage de programmation, dont Python, et d'afficher le résultat de l'exécution de code ainsi que d'ajouter des notes textuelles enrichies (en Markdown comme dans le présent fichier). Tout se passe dans une page de votre navigateur web préféré.
 
-    Si vous avez Miniconda vous devez d'abord installer le module `jupyter` :
-    ```
+Si vous avez Miniconda vous devez d'abord installer le module `jupyter` :   
+
     $ conda install jupyter
-    ```
-    Puis lancer le serveur web de notebooks qui ouvrira une fenêtre dans le navigateur web :  
-    ```
+    
+Puis lancer le serveur web de notebooks :     
+
     $ jupyter notebook
-    ```
-    ![Notebook example](img/notebook_ex1.png)   
+
+qui ouvrira une fenêtre dans le navigateur web :      
+![Notebook example](img/notebook_ex1.png)   
 
 ## 3. Télécharger un fichier particulier de ce dépot  
 Si vous avez installé Git il vous suffit de faire un `git pull` pour récupérer les nouveaux fichiers déposés depuis votre dernier pull.  
