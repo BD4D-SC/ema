@@ -7,7 +7,15 @@ Ivan Keller, AXA Belgique
 
 Ce cours, basé sur des exposés associés à des démonstrations et travaux pratiques, 
 permettra aux étudiants d’apprendre à utiliser les outils Open Source de la science des données, 
-et notamment l’éco-système autour du langage Python.
+et notamment l’éco-système autour du langage Python.  
+
+Ce dépot contient :
+- la présentation : `slides.pdf`
+- les notebooks de cours numérotés de `1_` à `5_`
+- les notebooks des TPs dans le répertoire `TPs/`
+- les corrections des TPs dans le répertoire `TPs/solutions/`
+- les fichiers des données utilisées dans les notebooks
+
 
 ## 0. Comment "cloner" ce dépot   
 Pour obtenir les fichiers de ce dépot (_repository_) par exemple pour modifier les notebooks :  
@@ -80,11 +88,13 @@ Il y a plusieurs manières d'intéragir avec Python:
     ```
     ![Notebook example](img/notebook_ex1.png)   
 
-## 3. Télécharger un fichier particulier de ce dépot   
-1. Sur ce dépot naviguer sur le fichier que vous voulez télécharger par exemple `5_Scikit_Learn.ipynb` 
+## 3. Télécharger un fichier particulier de ce dépot  
+Si vous avez installé Git il vous suffit de faire un `git pull` pour récupérer les nouveaux fichiers déposés depuis votre dernier pull.  
+Sinon :
+1. Sur le dépot, naviguer sur le fichier que vous voulez télécharger, par exemple `5_Scikit_Learn.ipynb` 
 2. Cliquer sur le bouton "Raw" ![](img/git_raw.png) qui affiche le code source du fichier  
-3. Sur votre navigateur choisir Enregistrer sous ... 
-4. Sauvegarder ce fichier en faisant attention à l'extension du fichier (retirer le `.txt`) à la place voulue.
+3. Sur votre navigateur choisir _Enregistrer sous ..._
+4. Sauvegarder le fichier à la place voulue en faisant attention à l'extension du fichier (retirer l'extension `.txt` si elle a été ajoutée).
 
 
 
